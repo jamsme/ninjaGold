@@ -1,0 +1,16 @@
+#container{
+    text-align: center;
+}
+#box {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 7px;
+    display: inline-block;
+    border: 2px solid black
+}
+#log{
+    display: block;
+    border: 2px solid black;
+    margin: 0 auto;
+}

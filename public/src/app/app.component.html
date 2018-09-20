@@ -1,0 +1,28 @@
+
+<div id="container">
+  <h2>Total gold: {{ gold.gold }}</h2>
+  <div id="box">
+    <h3>Farm</h3>
+    <h3>Earns 2-5 gold</h3>
+    <button (click)="onButtonClickFarm(gold._id)">Farm!</button>
+  </div>
+  <div id="box">
+    <h3>Cave</h3>
+    <h3>Earns 5-10 gold</h3>
+    <button (click)="onButtonClickCave(gold._id)">Cave!</button>
+  </div>
+  <div id="box">
+    <h3>House</h3>
+    <h3>Earns 7-15 gold</h3>
+    <button (click)="onButtonClickHouse(gold._id)">House!</button>
+  </div>
+  <div id="box">
+    <h3>Casino</h3>
+    <h3>Earn or lose up to 100 gold</h3>
+    <button (click)="onButtonClickCasino(gold._id)">Casino!</button>
+  </div>
+  <div id="log">
+    <h3>Adventure log</h3>
+    <p>#</p>
+  </div>
+</div>
